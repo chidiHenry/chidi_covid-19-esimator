@@ -1,0 +1,32 @@
+input {
+   display: block;
+   width: 50%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+select{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: bolder;
+}
+
+header{
+    font-size: x-large;
+
+}
+
+button{
+font-weight: bold;
+align-content: center;
+width: 50%;
+}
+body{
+    max-width: 500px;
+    margin: auto;
+    background-color:burlywood;
+  
+}

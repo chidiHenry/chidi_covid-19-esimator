@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+ <title>Covid-19 Impact Estimator</title>
+ <link rel="stylesheet" href="main.css"/>
+ 
+</head>
+
+<body>
+   <header>Covid-19 Impact Estimator</header>
+   <br>
+   <form>
+   <label for="data-population">Population</label>
+   <input id ="data-population"  type="number"  >
+   <label id ="data-time-to-elapse">Time to Elapse</label>
+   <input id ="data-time-to-elapse"  type="number" >
+   <label for="data-reported-cases">Reported Cases</label>
+   <input id ="data-reported-cases"  type="number" >
+   <label for="data-total-hospital-beds">Total Hospital Beds</label>
+   <input id ="data-total-hospital-beds"  type="number" >
+   <label for="data-period-type">Period Type</label>
+   <input id="data-period-type" type="number">
+   <select id="data-period-type">
+      <option>days</option>
+      <option>weeks</option>
+      <option>months</option>
+   </select>
+  <button name="data-go-estimate">Submit</button>
+   </form>
+<script src="estimator.js"> </script>
+
+</body>
+</html>
